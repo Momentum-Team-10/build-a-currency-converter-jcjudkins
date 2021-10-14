@@ -3,3 +3,19 @@
   margin: 0;
   padding: 0;
 }
+
+#container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+#search-input {
+  margin-bottom: 15px;
+}
+
+#search-input input {
+  width: 100%;
+}
